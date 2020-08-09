@@ -1,0 +1,66 @@
+<div class="col-md-9 col-sm-9 col-xs-12">
+        
+            <form method="post" action="#" enctype="multipart/form-data" >
+                <div class="panel-heading"><strong>Création d'un participant</strong></div>
+                <div class="panel-body">
+                    <table class="table-hover table-striped col-md-12 col-sm-12 col-xs-12">
+                        <tbody>
+                        <tr>
+                            <td style="width:50%;">
+                                <div class="centree">
+                                    <img src="imagespersonnes/ClintEastwood.jpg"
+                                         id="previewImage" class="imageUp img-thumbnail"
+                                         alt="image du participant"/>
+                                </div>
+                                <hr/>
+                                <div class="form-group">
+                                    <input type="file" name="image" id="file-input-1" 
+                                           title="Rechercher" required/>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><label for="nom">Nom : </label></span>
+                                    <input type="text" class="form-control" name="nom"
+                                           id="nom" placeholder="Nom du participant" required>
+                                </div>
+                                <br/>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><label for="prenom">Prénom : </label></span>
+                                    <input type="text" class="form-control" name="prenom"
+                                           id="prenom" placeholder="Prénom du participant" required>
+                                </div>
+                                <br/>
+
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <label for="pays">Pays : </label>
+                                        </span>
+                                    <select class="form-control" name="pays" id="pays">
+                                        <option value="1">Allemagne</option>
+                                        <option value="2">France</option>
+                                        <option value="3">USA</option>
+                                    </select>
+                                </div>
+                                <br/>
+
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <label for="dateNaissance">Date naissance  : </label></span>
+                                    <input type="text" class="form-control" name="dateNaissance"
+                                           id="dateNaissance" required >
+                                        <span class="input-group-addon">
+                                            <label>jj/mm/aaaa</label></span>
+                                </div>
+                                <br/>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-footer">
+                    <button type="submit" class="btn btn-default" name="valider">Valider
+                    </button>
+                </div>
+            </form>
+</div>

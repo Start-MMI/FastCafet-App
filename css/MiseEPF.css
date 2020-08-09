@@ -1,0 +1,738 @@
+				/* --- Couleurs --- */
+				main{
+					background-color: white;
+				}
+				header{
+					background-color: #EB9230;
+				}
+				.buttonH{
+					background-color: #1C1D18;
+					color: white;
+				}
+				.firstP h1{
+					color: white;
+				}
+				.firstP p{
+					color: black;
+				}
+				.break{
+					color: white;
+					background-color: #EB9230;
+				}
+				.ok{
+					background-color: #E6B17D;
+					color: white;
+				}
+
+				.coll3 h2{
+					color: #B4623E;
+				}
+				.desc{
+					background-color: #F8EADC;
+				}
+				footer{
+					background-color: #111A1C;
+				}
+				.cola1 h2{
+					color: #EB9230;
+				}
+				footer>a{
+					color:white;
+				}
+				.cola2 h2{
+					color: #823F36;
+				}
+				footer>p{
+					color: white;
+				}
+				.circle{
+					background: black;
+				}
+				.MAPop a{
+					color: #E6B17D;
+				}
+				input[name=question] + label{
+					background: #B4623E;
+					color: white;
+					box-shadow: 0 0 10px rgba(0,0,0,.1);
+				}
+				.response{
+					background-color: #F8EADC;
+					color: #F8EADC;
+					box-shadow: 0 0 10px rgba(0,0,0,.1);
+				}
+				input[name=question]:checked + label{
+					background: #E6B17D;
+					color: black;
+				}
+				.go{
+					color: white;
+					background-color: #B4623E;
+				}
+
+                /* --- Generale --- */
+
+				a{
+					text-decoration: none;
+				}
+				footer p a{
+					text-decoration: none;
+					color: #EB9230;
+				}
+				main{
+	padding-top:80px;
+}
+p{
+     margin: 0;
+}
+h1{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+.center{
+    text-align: center;
+}
+.decalt{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+main{
+	padding-top: 80px;
+	min-height: 86vh;
+}
+header{
+	z-index: 10;
+	position: fixed;
+	display: block;
+	vertical-align: top;
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+                /* --- Header --- */
+.logoH{
+	display: inline-block;
+	width: 20%;
+	min-width: 100px;
+	height: 40px;
+	padding-left: 10px;
+	margin-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.buttonH{
+	float: right;
+	border: none;
+	border-radius: 8px;
+	display: inline-block;
+	margin: 17px;
+	margin-right:10px ;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	min-width: 130px;
+	min-height: 45px;
+}
+.firstP{
+	width: 100%;
+	height: 80vh;
+	max-height: 1000px;
+	min-height: 550px;
+	background-image: url("images/fond.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.firstP h1{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin:0;
+	padding: 10%;
+	padding-top: 15%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.firstP p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+                /* --- Separation --- */
+.break{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.break>p {
+	margin: 0;
+	padding: 10px;
+	padding-bottom: 20px;
+	padding-left:15px;
+}
+.break>form{
+	padding-left:20%;
+	margin: 0;
+	display: inline-block;
+}
+.ok{
+     display: inline-block;
+     vertical-align: top;
+     border: none;
+     width: 25%;
+     height: 40px;
+     border-radius: 8px;
+     margin-left: -17px;
+     margin-top: 10px;
+ }
+                /* --- Division 3 colones --- */
+.coll3{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	width: 33.3%;
+	min-width: 240px;
+	height: auto;
+	box-sizing: border-box;
+}
+footer .coll3{
+	text-decoration: underline;
+	text-align: le;
+	color: #EB9230;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	width: 33.3%;
+	min-width: 240px;
+	height: auto;
+	box-sizing: border-box;
+}
+.coll3 img{
+	border-radius: 100px;
+	box-sizing: border-box;
+
+}
+.coll3 h2{
+    padding-bottom: 20px;
+}
+.desc{
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+                /* --- Footer --- */
+footer{
+	width: 100%;
+	height: auto;
+}
+footer>a{
+	text-decoration: none;
+}
+footer>p{
+	display: inline-block;
+	width: 60%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+.resalF{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+}
+.resal{
+	box-sizing: border-box;
+	float: right;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+                /* --- FAQ --- */
+.cache{
+    width:100%;
+    height: 90px;
+    display: inline-block;
+    overflow: hidden;
+}
+                /* --- Decomposition 2 colones / Composition specifique --- */
+
+.cola1{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	box-sizing: border-box;
+	height: auto;
+	overflow: hidden;
+}
+.cola2{
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	box-sizing: border-box;
+	height: auto;
+	overflow: hidden;
+}
+.cola1>img{
+	height: auto;
+	width: 100%;
+	padding-left: 25px;
+	border-radius: 50%;
+}
+.cola1>p{
+	padding-left: 10%;
+	padding-top: 4%;
+}
+.cola1 h2{
+	text-align: center;
+	margin: 10%;
+}
+.cola1>h2{
+margin: 3%;
+}
+.cola2>p{
+	padding-left: 10%;
+	padding-top: 4%;
+}
+.cola2 h2{
+	text-align: center;
+	margin: 10%;
+}
+.cola2>h2{
+	margin: 3%;
+}
+.colb{
+	box-sizing: border-box;
+	padding-top: 10px;
+	width: 50%;
+	vertical-align: top;
+	display: inline-block;
+}
+.colb>p{
+	padding: 10%;
+	padding-top: 0;
+}
+.colb>p:last-child{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	background-color: #B4623E;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.colb a{
+	text-decoration: none;
+	color: white;
+}
+
+
+                /* --- Gros bordel a modifier --- */
+.content{
+	padding-bottom: 6% ;
+	display: block;
+	margin: auto;
+	vertical-align: top;
+
+
+}
+                /* --- Reseau Sociaux page contact --- */
+.circle{
+	width: 74px;
+	margin-bottom: 5px;
+	height: 74px;
+	margin-left: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: top;
+	/* background-image: url("images/icones/facebook-f.png");
+	background: cover;
+	text-indent: -9000px;*/
+}
+.circle img{
+    display: flex;
+    margin-top:12px;
+    margin-left: 12px;
+}
+                /* --- Fentre POPOUP interne --- */
+.MAPop{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.MAPop a{
+     text-decoration: none;
+     height: 40px;
+     padding-top: 5px;
+     width: 40%;
+     box-sizing: border-box;
+ }
+
+                /* ------ Formulaire Interne ------ */
+.form{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.break form{
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+	width:100%;
+	box-sizing: border-box;
+}
+.form input:first-of-type {
+	border-radius: 8px;
+	padding: 0;
+	width:45%;
+	border: none;
+	height: 40px;
+	margin-top: 10px;
+}
+                /* ------ Fonction FAQ ------ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em
+}
+section{
+	z-index: 2;
+  padding: 3%;
+}
+.animate{
+  transition: all .3s;
+}
+
+input[name=question]{
+    display: none;
+}
+input[name=question] + label{
+    position: relative;
+    display: block;
+    padding: 20px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 3px;
+}
+.response{
+    position: relative;
+    padding: 10px 20px;
+    -webkit-transform: translate3d(0,-40px, 0) rotate(-.5deg);
+    z-index: 1;
+    opacity: 0;
+    border-radius: 3px;
+}
+input[name=question]:checked + label + .response{
+    opacity: 1;
+    visibility: visible;
+    padding: 10px 20px;
+    -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
+    -webkit-filter: blur(0px);
+    margin-bottom: 20px;
+    color: black;
+}
+.fixed-height{
+    height: 80px;
+    overflow: hidden;
+    opacity: 1 !important;
+}
+
+                /* ------ Fonction menu avec formulaire ------ */
+.menu-toggle {
+	z-index: 20;
+  width: 40px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+}
+.one,
+ .two,
+ .three {
+	display: none;
+	 width: 100%;
+	 height: 5px;
+	 background: white;
+	 margin: 6px auto;
+	 backface-visibility: hidden;
+	 -moz-transition-duration: 0.3s;
+	 -o-transition-duration: 0.3s;
+	 -webkit-transition-duration: 0.3s;
+	 transition-duration: 0.3s;
+ }
+
+.menu-toggle.on .one {
+	display: block;
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+.menu-toggle.on .two {
+  opacity: 0;
+}
+.menu-toggle.on .three {
+	display: inline-flex;
+	color: white;
+  -moz-transform: rotate(-45deg) translate(8px, -10px);
+  -ms-transform: rotate(-45deg) translate(8px, -10px);
+  -webkit-transform: rotate(-45deg) translate(8px, -10px);
+  transform: rotate(-45deg) translate(8px, -10px);
+}
+
+
+
+ ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+	 padding-top: 80px;
+	 box-sizing: border-box;
+}
+ul.hidden {
+  display: none;
+}
+
+.menu-section.on {
+  z-index: 11;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  vertical-align: top;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+	top:0;
+}
+.inscript{
+	text-align: center;
+}
+.champ{
+	text-align: left;
+	display: flex;
+	box-sizing: border-box;
+	width: 30%;
+	height: 40px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+.menu-section label{
+	display: block;
+	vertical-align: top;
+	text-align: center;
+}
+.formca{
+	color: white;
+	padding: 20px;
+}
+.inscript label{
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.menu-section input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.go{
+	width: 30%;
+	height: 5vh;
+	border: 0;
+	border-radius: 4px;
+}
+.mention{
+	padding-left: 30px ;
+	line-height: 10px;
+	padding-bottom:20px ;
+}
+.mention h1{
+	font-size: 5vh;
+	padding: 5px;
+}
+				.mention h2{
+					font-size: 5vh;
+					padding: 5px;
+				}
+				.mention h3{
+					font-size: 5vh;
+					padding: 5px;
+				}
+				.mention h4{
+					font-size: 5vh;
+					padding: 5px;
+				}
+				.mention h5{
+					font-size: 5vh;
+					padding: 5px;
+				}
+				.mention h6{
+					font-size: 5vh;
+					padding: 5px;
+				}
+				.break:last-of-type{
+					padding: 0;
+				}
+				.rassurance{
+					display: inline-block;
+					height: 150px;
+					padding: 10px;
+					padding-right: 6%;
+				}
+.rassurance img{
+	padding: 10px;
+	max-height: 140px;
+	width: auto;
+}
+
+
+                /* ------ Responsive ------ */
+
+/* Pour Mobile */
+				@media only screen and (max-width: 1000px) {
+					.champ{
+						text-align: left;
+						display: flex;
+						box-sizing: border-box;
+						width: 90%;
+						height: 40px;
+						margin-left: 5%;
+						margin-right: 10%;
+					}
+				}
+
+@media only screen and (max-width: 700px){
+
+	.content{
+		padding-left: 1%;
+	}
+	.rassurance{
+		display: inline-block;
+		height: 36px;
+		padding: 10px;
+		padding-right: 6%;
+	}
+	.rassurance img{
+		padding: 1px;
+		max-height: 36px;
+		width: auto;
+	}
+	.MAPop{
+		padding: 20px;
+	}
+.cola2 h2 {
+	text-align: center;
+	margin: 5px;
+	color: #823F36;
+}
+	.cola1{
+		display: inline-block;
+		vertical-align: top;
+		width: 35%;
+		box-sizing: border-box;
+		height: auto;
+		overflow: hidden;
+	}
+	.cola2{
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+		box-sizing: border-box;
+		height: auto;
+		overflow: hidden;
+	}
+	.colb{
+		box-sizing: border-box;
+		/*padding-top: 0px;*/
+		width: 50%;
+		vertical-align: top;
+		display: inline-block;
+	}
+	.resalc{
+		padding-left: 0px;
+	}
+
+	.circle{
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+		background: black;
+		border-radius: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.circle img{
+		width: 20px;
+		height: 20px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.form input:first-of-type {
+		 border-radius: 8px;
+		 padding: 0;
+		 width:65%;
+		 border: none;
+		 height: 40px;
+		 margin-top: 10px;
+	 }
+	.long{
+		margin-top: -10px;
+	}
+	.buttonH{
+		float: right;
+		background-color: #1C1D18;
+		color: white;
+		border: none;
+		border-radius: 40px;
+		display: inline-block;
+		margin: 17px;
+		margin-right:10px ;
+		text-align: center;
+		width: 42%;
+		height: 50%;
+		min-width: 130px;
+		min-height: 45px;
+	}
+    .go{
+        width: 50%;
+    }
+    .inscript label{
+        padding: 15px;
+    }
+}
+				@media only screen and (max-width: 470px) {
+					.MAPop {
+						display: inline-block;
+						vertical-align: top;
+						width: 40%;
+						padding-top: 15px;
+						box-sizing: border-box;
+						text-align: center;
+					}
+				}
+
+				.none{
+					display: none;
+				}

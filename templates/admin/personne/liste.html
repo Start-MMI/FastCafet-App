@@ -1,0 +1,53 @@
+<div class="panel panel-default col-md-9 col-sm-9 col-xs-12">
+<div class="panel-heading">
+    <strong>Liste des participants disponibles</strong>
+    <a href="index.php?page=newPersonne" class="pull-right">
+        <span  title="Créer un participant">
+            <i class="fa fa-plus fa-lg" ></i>
+        </span>
+    </a>
+</div>
+<div class="panel-body">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Prénom</td>
+                <td>Mail</td>
+                <td>Abonnement</td>
+                <td class="centree">Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        <?php for ($i = 0; $i < count($liste); $i++) { $Personne = $liste[$i]; ?>
+            <tr>
+
+                <td><?php echo $Personne->getId(); ?> </td>
+                <td><?php echo $Personne->getPrenom(); ?> </td>
+                <td><?php echo $Personne->getEmail(); ?> </td>
+                <td><?php echo $Personne->getAbo(); ?> </td>
+                <td class="centree">
+                    <span title="supprimable">
+                        <a href="index.php?page=suppPersonne&id<?php echo$Personne->getId(); ?>" >
+                        <i class="fa fa-times fa-lg" ></i>
+                        </a>
+                    </span>
+                    <span  title="Modifier la personne">
+                        <a href="index.php?page=modificationPersonne&id<?php echo$Personne->getId(); ?>" >
+                            <i class="fa fa-edit fa-lg" ></i>
+                        </a>
+                    </span>
+                </td>
+            </tr>
+        <?php } ?>
+
+
+
+        </tbody>
+    </table>
+</div>
+
+<div class="panel-footer">
+</div>
+</div>

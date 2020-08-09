@@ -1,0 +1,27 @@
+<div id="choice">
+        <div class="choice_1"> <a href="index.php?page=connexion"><p>Connexion</p></a></div>
+        <div class="sep_vert"><p></p></div>
+        <div class="choice_2"><a href="index.php?page=creation_compte"><p>Création de compte</p></a></div>
+    </div>
+    <div class="sep_oriz_2"></div>
+    <form method="post" action="index.php?page=creation_compte">
+        <p>
+            <label for="prenom">Prénom&nbsp;:</label>
+            <input type="text" name="prenom" id="prenom" size="30" maxlength="10" />
+        </p>
+        <p>
+            <label for="nom">Nom&nbsp;:</label>
+            <input type="text" name="nom" id="nom"  size="30" maxlength="10" />
+        </p>
+        <p>
+            <label for="email">Email&nbsp;:</label>
+            <input type="email" name="email" id="email" />
+        </p>
+        <p>
+            <label for="password">Mot de passe&nbsp;:</label>
+            <input type="password" name="password" id="password" />
+        </p>
+        <p>
+        <input type="submit" name="valider" class="input"/>
+        </p>
+    </form>

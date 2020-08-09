@@ -1,0 +1,30 @@
+<h1>Panier</h1>
+<div class="break"></div>
+<?php $addition = 0;?>
+
+<?php if (isset($_SESSION['panier'])!= "") {
+for ($i = 0; $i <count($_SESSION['panier']); $i++) {  ?>
+<div class="e_histo">
+
+    <div class="col2">
+        <img class="img_histo" src="images/icones/produits/<?php echo $_SESSION['img'][$i] ?>.svg">
+        <p class="smal"><?php echo $_SESSION['panier'][$i]?></p>
+        <?php $addition = $addition + $_SESSION['essai'][$i]?>
+    </div>
+    <div class="col3">
+        <p class="smal pprix">Prix</p>
+        <p class="smal pprix"><?php echo round($_SESSION['essai'][$i],2)?> €</p>
+    </div>
+</div>
+<?php }} ?>
+<div class="com_end">
+    <div class="col4"><p>Total</p>
+        <p><?php echo $addition ?> €</p></div>
+    <div class="col5a"><p>Jour de livraison&nbsp;:</p>
+        <p>12/02</p></div>
+    <div class="col6">
+        <form method="POST" action="">
+            <input type="submit" name="vider" value="Payer">
+        </form>
+    </div>
+</div>

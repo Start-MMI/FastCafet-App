@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato',sans-serif;
+}
+h1{
+    font-size: 6vh;
+}
+h2{
+    font-size: 2.5vh;
+}
+
+p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3;
+
+}
+
+button{
+    font-family: "Lato","Open Sans", sans-serif;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+.class_prod{
+    font-weight: bold;
+}
+
+a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05em;
+}

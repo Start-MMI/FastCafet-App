@@ -1,0 +1,13 @@
+<?php for ($i = 0; $i < count($liste); $i++) { $Produits = $liste[$i]; ?>
+<div class="prod">
+    <form method="POST" action="">
+        <div class="none">
+            <input name="nom" size="20" value="<?php echo$Produits->getNom(); ?>">
+            <input name="prix" size="20" value="<?php echo$Produits->getPrix(); ?>">
+            <input name="image" size="20" value="<?php echo$Produits->getImage(); ?>"></div>
+    <div class="col15"><img class="img_prod" src="images/icones/produits/<?php echo $Produits->getImage(); ?>.svg"><img class="info" src="images/icones/Informations.svg"><p><?php echo $Produits->getNom(); ?></p><p><?php echo round($Produits->getPrix(),2); ?>€</p></div>
+</div>
+<input class="col15i" type="submit" name="ajouter" value="ajouter au panier">
+</form>
+<div class="break_3"></div>
+<?php } ?>
